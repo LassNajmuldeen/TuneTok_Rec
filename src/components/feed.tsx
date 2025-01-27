@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-// TODO: import and test a few videos
+// Import and test a few videos
 const videos = [
   {
     id: 1,
