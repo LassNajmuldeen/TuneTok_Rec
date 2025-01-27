@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 
 // TODO: import and test a few videos
@@ -7,7 +9,7 @@ const videos = [
     url: "/videos/video1.mp4",
     title: "Song 1",
     artist: "Artist 1",
-    genre: "Pop",
+    genre: "Rap",
   },
   {
     id: 2,
@@ -56,12 +58,6 @@ const VideoFeed: React.FC = () => {
           </div>
         ))}
       </div>
-      <button
-        onClick={handleScroll}
-        className="fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-blue-600 px-6 py-2 rounded-full"
-      >
-        Next Video
-      </button>
     </div>
   );
 };
