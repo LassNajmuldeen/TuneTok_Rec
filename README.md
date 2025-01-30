@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TuneTok
 
-## Getting Started
+A music feed application built with React and TypeScript, inspired by TikTok's website and made for Spotify's music app. The application allows users to like, comment, and interact with music videos, featuring a feed that displays various songs. It provides basic user interactions such as liking videos and adding comments.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Music Feed**: Display a list of music tracks with a playable audio player.
+- **Like/Unlike Videos**: Users can like or unlike a video, updating the like count.
+- **Comment Section**: Users can add comments to videos and react to comments with likes/dislikes.
+- **Basic UI/UX**: Designed to resemble the look and feel of Spotify.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Future Enhancements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project will eventually integrate an advanced **recommendation system** based on **cosine similarity** to personalize the feed. The system will analyze user preferences and interactions to suggest content that aligns with their interests. This feature is aimed at enhancing the user experience by tailoring the content they see.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- React
+- Next.js
+- TypeScript
+- CSS
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application will be running at http://localhost:3000
