@@ -10,7 +10,8 @@ type Video = {
   artist: string;
   genre: string;
   likes: number;
-  comments: string[];
+  comments: string[]; 
+  
 };
 
 // Initial videos array
